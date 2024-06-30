@@ -1,0 +1,59 @@
+* {
+    font-family: Outfit, sans-serif;
+    font-size: 15px;
+    
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    width: 320px;
+    height: 500px;
+    border-radius: 20px;
+    padding: 15px
+  
+}
+
+.qr-code img{
+    width: 100%;
+    border-radius: 10px;
+    
+
+    
+}
+
+.qr-text h1{
+    font-weight: 700;
+    font-size: 1.7em;
+    text-align: center;
+    color: hsl(218, 44%, 22%)
+
+}
+
+.qr-text p{
+    max-width: 100%;
+    font-weight: 400;
+    text-align: center;
+    margin: 10px 30px;
+    color: hsl(220, 15%, 55%)
+
+}
+
+
+@media screen and (max-width: 350px) {
+    .card {
+        width: 280px
+    }
+}
+
+
+
